@@ -1,0 +1,35 @@
+﻿.logo-text {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 1;
+}
+
+.logo-text span {
+    color: #f9ab00;
+}
+
+.filter__items {
+    display: flex !important;
+}
+
+.filter__items .filter__select {
+        min-width: 280px;
+    }
+
+.ss-content .ss-option {
+    white-space: nowrap;
+}
+
+.details__backdrop {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .details__backdrop {
+        margin-top: 0;
+    }
+}
